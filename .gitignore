@@ -1,9 +1,3 @@
-# Data folders
-
-ai_answers/
-claude_answers/
-test_run/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -141,8 +135,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Project-specific
-# AI generated answers and context files
+# Project-specific data folders
 ai_answers/
 claude_answers/
 test_run/

@@ -1,0 +1,61 @@
+{
+  "timestamp": "20250818_120905",
+  "source_csv": "context_Conversa do WhatsApp com +55 15 99107-7755_parsed.csv",
+  "payload": {
+    "model": "claude-sonnet-4-20250514",
+    "max_tokens": 2048,
+    "system": "You are an AI agent that writes one-line real estate follow-up messages sent 24+ hours after last contact; be concise, clear, professional, re-engage with a question or new info, no emojis, no explanations, no system text—output only the message.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+      },
+      {
+        "role": "assistant",
+        "content": "Anúncio do Instagram Mostrar detalhes Olá! Diga como podemos ajudar você."
+      },
+      {
+        "role": "user",
+        "content": "Olá, tenho interesse no imóvel MO7264."
+      },
+      {
+        "role": "assistant",
+        "content": "Olá! Tudo bem?\n\nEu sou Mavi, assistente da Mosaic.\n\nInfelizmente, não consegui localizar o imóvel MO7264 em nosso sistema no momento. Isso pode acontecer quando o imóvel não está mais disponível ou houve algum erro na busca.\n\nVocê poderia me informar onde viu essa referência? Foi em algum site, anúncio ou você recebeu essa informação de algum dos nossos sócios?\n\nEnquanto isso, posso te ajudar a encontrar opções similares. Para isso, gostaria de saber:\n\n- Que tipo de imóvel você está procurando? (apartamento, casa, cobertura, etc.)\n- Em qual região de São Paulo tem interesse?\n- Qual sua faixa de orçamento?\n\nAssim posso te apresentar imóveis disponíveis que atendam ao seu perfil!"
+      },
+      {
+        "role": "assistant",
+        "content": "Regina, tudo bem? Tenho excelentes imóveis o que você está procurando?"
+      },
+      {
+        "role": "assistant",
+        "content": "Regina, tudo bem? Está cansada de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões!"
+      }
+    ],
+    "temperature": 0.3
+  },
+  "response": {
+    "id": "msg_01MJVgFw83aWHf1wNoBYucNU",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-4-20250514",
+    "content": [
+      {
+        "type": "text",
+        "text": "\n\nAssim eu já posso te mandar algumas opções!"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 579,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 17,
+      "service_tier": "standard"
+    }
+  }
+}

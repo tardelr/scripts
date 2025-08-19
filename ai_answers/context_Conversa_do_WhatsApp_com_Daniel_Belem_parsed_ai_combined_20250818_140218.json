@@ -1,0 +1,227 @@
+{
+  "timestamp": "20250818_140218",
+  "source_csv": "context_Conversa do WhatsApp com Daniel Belem_parsed.csv",
+  "claude": {
+    "payload": {
+      "model": "claude-sonnet-4-20250514",
+      "max_tokens": 2048,
+      "system": "You are an AI agent writing one-line follow-up messages for real estate leads contacted 24+ hours ago; always output a message—be concise, clear, professional, re-engage with a question or new info, no emojis, no system text, no silence.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Prazer! Eu sou a Mavi assistente da Mosaic. Consigo te ajudar a encontrar o melhor imóvel! O que você está procurando?"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Está cansado de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões! <Mensagem editada>"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Como estão as coisas por aí? Você ainda está procurando?"
+        },
+        {
+          "role": "user",
+          "content": "Olá"
+        },
+        {
+          "role": "user",
+          "content": "Sim"
+        },
+        {
+          "role": "assistant",
+          "content": "Oi Daniel! Tudo bem?\n\nQue bom que você ainda está procurando! Vou te ajudar a encontrar o imóvel perfeito.\n\nPara começar, me conta: você está procurando um imóvel para comprar ou alugar?"
+        },
+        {
+          "role": "user",
+          "content": "Locação"
+        },
+        {
+          "role": "assistant",
+          "content": "Perfeito! Agora me conta, que tipo de imóvel você está procurando? Casa, apartamento, studio?"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Estou 100% a disposição é só me falar qual tipo de imóvel você está procurando, o valor, se é para alugar ou comprar e os bairros que está procurando! Na mesma hora já te envio opções da nossa base!"
+        },
+        {
+          "role": "user",
+          "content": "Apartamento"
+        },
+        {
+          "role": "user",
+          "content": "Itaim bibi, vila nova, jardim america"
+        },
+        {
+          "role": "user",
+          "content": "Dependendo jardim paulista"
+        },
+        {
+          "role": "user",
+          "content": "130m-200m"
+        },
+        {
+          "role": "user",
+          "content": "Não precisa estar mobiliado"
+        },
+        {
+          "role": "assistant",
+          "content": "Perfeito, Daniel! Você tem um gosto excelente - essas são regiões muito procuradas em São Paulo.\n\nSó para confirmar: quando você menciona Vila Nova, é Vila Nova Conceição, certo?\n\nPara eu te enviar as melhores opções de apartamentos entre 130m² e 200m² nessas regiões, qual seria sua faixa de valor para locação?"
+        },
+        {
+          "role": "user",
+          "content": "Maximo 23k"
+        },
+        {
+          "role": "assistant",
+          "content": "Aqui está o link com todas as opções que selecionei para você: https://minisites.mosaichomes.com.br/6899fb0c57f87419d4ce20bf\n\nSão apartamentos em Itaim Bibi, Vila Nova Conceição e Jardim América, todos dentro da sua faixa de metragem e orçamento!\n\nSe você quiser compartilhar mais detalhes como número de quartos, vagas de garagem ou alguma característica específica que seja importante para você, posso refinar ainda mais as opções.\n\nAlgum imóvel do link despertou seu interesse ou gostaria de tirar alguma dúvida?"
+        }
+      ],
+      "temperature": 0.0
+    },
+    "response": {
+      "id": "msg_01KapyrgtjfJcKuWnnLvf8nj",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-4-20250514",
+      "content": [],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 866,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  "gpt": {
+    "payload": {
+      "model": "gpt-4o",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an AI agent writing one-line follow-up messages for real estate leads contacted 24+ hours ago; always output a message—be concise, clear, professional, re-engage with a question or new info, no emojis, no system text, no silence."
+        },
+        {
+          "role": "user",
+          "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Prazer! Eu sou a Mavi assistente da Mosaic. Consigo te ajudar a encontrar o melhor imóvel! O que você está procurando?"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Está cansado de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões! <Mensagem editada>"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Como estão as coisas por aí? Você ainda está procurando?"
+        },
+        {
+          "role": "user",
+          "content": "Olá"
+        },
+        {
+          "role": "user",
+          "content": "Sim"
+        },
+        {
+          "role": "assistant",
+          "content": "Oi Daniel! Tudo bem?\n\nQue bom que você ainda está procurando! Vou te ajudar a encontrar o imóvel perfeito.\n\nPara começar, me conta: você está procurando um imóvel para comprar ou alugar?"
+        },
+        {
+          "role": "user",
+          "content": "Locação"
+        },
+        {
+          "role": "assistant",
+          "content": "Perfeito! Agora me conta, que tipo de imóvel você está procurando? Casa, apartamento, studio?"
+        },
+        {
+          "role": "assistant",
+          "content": "Daniel, tudo bem? Estou 100% a disposição é só me falar qual tipo de imóvel você está procurando, o valor, se é para alugar ou comprar e os bairros que está procurando! Na mesma hora já te envio opções da nossa base!"
+        },
+        {
+          "role": "user",
+          "content": "Apartamento"
+        },
+        {
+          "role": "user",
+          "content": "Itaim bibi, vila nova, jardim america"
+        },
+        {
+          "role": "user",
+          "content": "Dependendo jardim paulista"
+        },
+        {
+          "role": "user",
+          "content": "130m-200m"
+        },
+        {
+          "role": "user",
+          "content": "Não precisa estar mobiliado"
+        },
+        {
+          "role": "assistant",
+          "content": "Perfeito, Daniel! Você tem um gosto excelente - essas são regiões muito procuradas em São Paulo.\n\nSó para confirmar: quando você menciona Vila Nova, é Vila Nova Conceição, certo?\n\nPara eu te enviar as melhores opções de apartamentos entre 130m² e 200m² nessas regiões, qual seria sua faixa de valor para locação?"
+        },
+        {
+          "role": "user",
+          "content": "Maximo 23k"
+        },
+        {
+          "role": "assistant",
+          "content": "Aqui está o link com todas as opções que selecionei para você: https://minisites.mosaichomes.com.br/6899fb0c57f87419d4ce20bf\n\nSão apartamentos em Itaim Bibi, Vila Nova Conceição e Jardim América, todos dentro da sua faixa de metragem e orçamento!\n\nSe você quiser compartilhar mais detalhes como número de quartos, vagas de garagem ou alguma característica específica que seja importante para você, posso refinar ainda mais as opções.\n\nAlgum imóvel do link despertou seu interesse ou gostaria de tirar alguma dúvida?"
+        }
+      ],
+      "max_tokens": 2048,
+      "temperature": 0.0
+    },
+    "response": {
+      "id": "chatcmpl-C5xXLOcVVA3o79osLtVhWDRzQSqZ4",
+      "object": "chat.completion",
+      "created": 1755536535,
+      "model": "gpt-4o-2024-08-06",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Ótimo, Daniel! Vou buscar opções de apartamentos entre 130m² e 200m² nessas regiões, com aluguel até R$23k. Alguma preferência por número de quartos ou vagas de garagem?",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 668,
+        "completion_tokens": 45,
+        "total_tokens": 713,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_46bff0e0c8"
+    }
+  }
+}

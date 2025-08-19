@@ -1,0 +1,160 @@
+{
+  "timestamp": "20250818_135813",
+  "source_csv": "context_Conversa do WhatsApp com +55 11 98266-7543_parsed.csv",
+  "claude": {
+    "payload": {
+      "model": "claude-sonnet-4-20250514",
+      "max_tokens": 2048,
+      "system": "You are an AI agent writing one-line follow-up messages for real estate leads contacted 24+ hours ago; always output a message—be concise, clear, professional, re-engage with a question or new info, no emojis, no system text, no silence.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+        },
+        {
+          "role": "assistant",
+          "content": "Anúncio do Instagram Mostrar detalhes Olá! Diga como podemos ajudar você.\n Olá, tenho interesse no imóvel MO4607"
+        },
+        {
+          "role": "assistant",
+          "content": "Olá! Tudo bem?\n\nEu sou Mavi, assistente da Mosaic.\n\nO imóvel que você se interessou fica no Jardim Paulista.\n\nSegue aqui o link com as informações e fotos: https://minisites.mosaichomes.com.br/688241c87218fc242740f7eb\n\nAqui estão todas as informações:\n- **Tipo:** Apartamento\n- **Endereço:** Alameda Campinas, 911 - Jardim Paulista\n- **Preço:** R$ 2.100.000\n- **Código:** MO4607\n- **Área útil:** 126 m²\n- **Dormitórios:** 3\n- **Suítes:** 1\n- **Vagas:** 1\n\nVocê gostaria de tirar alguma dúvida ou prefere já agendar uma visita?"
+        },
+        {
+          "role": "user",
+          "content": "Obrigada vou analisar e entro em contato"
+        },
+        {
+          "role": "assistant",
+          "content": "Perfeito! Fico à disposição para quando você quiser esclarecer qualquer dúvida sobre o imóvel ou outros que possam te interessar.\n\nQuando estiver pronta para conversar, estarei aqui para ajudar! 😊"
+        },
+        {
+          "role": "assistant",
+          "content": "Carla, tudo bem? O que achou do imóvel? Temos muitos imóveis fantásticos por aqui! É só me falar o que está procurando que eu te ajudo!"
+        },
+        {
+          "role": "assistant",
+          "content": "Oie Carla, tudo bem? Chegou um imóvel incrível na Jaú! https://minisites.mosaichomes.com.br/688a1b6774815b00f566cca0\n\nO que você acha?"
+        },
+        {
+          "role": "assistant",
+          "content": "Carla, tudo bem? O que você está procurando? No jardins mesmo?"
+        },
+        {
+          "role": "assistant",
+          "content": "Carla, tudo bem? Está cansada de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões!"
+        }
+      ],
+      "temperature": 0.0
+    },
+    "response": {
+      "id": "msg_016NNuhJkLNmcmAe52qMYNcr",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-4-20250514",
+      "content": [
+        {
+          "type": "text",
+          "text": "\n\nCarla, você ainda está procurando imóvel no Jardins ou já encontrou algo que te interessou?"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 771,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 31,
+        "service_tier": "standard"
+      }
+    }
+  },
+  "gpt": {
+    "payload": {
+      "model": "gpt-4o",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an AI agent writing one-line follow-up messages for real estate leads contacted 24+ hours ago; always output a message—be concise, clear, professional, re-engage with a question or new info, no emojis, no system text, no silence."
+        },
+        {
+          "role": "user",
+          "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+        },
+        {
+          "role": "assistant",
+          "content": "Anúncio do Instagram Mostrar detalhes Olá! Diga como podemos ajudar você.\n Olá, tenho interesse no imóvel MO4607"
+        },
+        {
+          "role": "assistant",
+          "content": "Olá! Tudo bem?\n\nEu sou Mavi, assistente da Mosaic.\n\nO imóvel que você se interessou fica no Jardim Paulista.\n\nSegue aqui o link com as informações e fotos: https://minisites.mosaichomes.com.br/688241c87218fc242740f7eb\n\nAqui estão todas as informações:\n- **Tipo:** Apartamento\n- **Endereço:** Alameda Campinas, 911 - Jardim Paulista\n- **Preço:** R$ 2.100.000\n- **Código:** MO4607\n- **Área útil:** 126 m²\n- **Dormitórios:** 3\n- **Suítes:** 1\n- **Vagas:** 1\n\nVocê gostaria de tirar alguma dúvida ou prefere já agendar uma visita?"
+        },
+        {
+          "role": "user",
+          "content": "Obrigada vou analisar e entro em contato"
+        },
+        {
+          "role": "assistant",
+          "content": "Perfeito! Fico à disposição para quando você quiser esclarecer qualquer dúvida sobre o imóvel ou outros que possam te interessar.\n\nQuando estiver pronta para conversar, estarei aqui para ajudar! 😊"
+        },
+        {
+          "role": "assistant",
+          "content": "Carla, tudo bem? O que achou do imóvel? Temos muitos imóveis fantásticos por aqui! É só me falar o que está procurando que eu te ajudo!"
+        },
+        {
+          "role": "assistant",
+          "content": "Oie Carla, tudo bem? Chegou um imóvel incrível na Jaú! https://minisites.mosaichomes.com.br/688a1b6774815b00f566cca0\n\nO que você acha?"
+        },
+        {
+          "role": "assistant",
+          "content": "Carla, tudo bem? O que você está procurando? No jardins mesmo?"
+        },
+        {
+          "role": "assistant",
+          "content": "Carla, tudo bem? Está cansada de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões!"
+        }
+      ],
+      "max_tokens": 2048,
+      "temperature": 0.0
+    },
+    "response": {
+      "id": "chatcmpl-C5xTQpF1y7nNveBhadgqcuVWd6sLI",
+      "object": "chat.completion",
+      "created": 1755536292,
+      "model": "gpt-4o-2024-08-06",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Ótimo, Carla! Se precisar de mais informações ou quiser agendar uma visita, estou à disposição.",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 571,
+        "completion_tokens": 22,
+        "total_tokens": 593,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_46bff0e0c8"
+    }
+  }
+}

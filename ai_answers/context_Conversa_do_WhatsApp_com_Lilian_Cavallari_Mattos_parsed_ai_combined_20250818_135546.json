@@ -1,0 +1,152 @@
+{
+  "timestamp": "20250818_135546",
+  "source_csv": "context_Conversa do WhatsApp com Lilian Cavallari Mattos_parsed.csv",
+  "claude": {
+    "payload": {
+      "model": "claude-sonnet-4-20250514",
+      "max_tokens": 2048,
+      "system": "You are an AI agent writing one-line follow-up messages for real estate leads contacted 24+ hours ago; always output a message—be concise, clear, professional, re-engage with a question or new info, no emojis, no system text, no silence.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Prazer! Eu sou a Mavi assistente da Mosaic. Consigo te ajudar a encontrar o melhor imóvel! O que você está procurando?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Está cansada de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões!"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Me conta melhor, o que está procurando?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Achei uma casa fantástica na Vila Nova para você!"
+        },
+        {
+          "role": "assistant",
+          "content": "https://minisites.mosaichomes.com.br/688bc45f750a7661922dd41d?"
+        },
+        {
+          "role": "assistant",
+          "content": "O que você acha? Gostou?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? O que você está procurando? É uma casa na vila nova mesmo?"
+        }
+      ],
+      "temperature": 0.0
+    },
+    "response": {
+      "id": "msg_01QCk6UVmJ1qxLFQPuCCVF2H",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-4-20250514",
+      "content": [
+        {
+          "type": "text",
+          "text": "\n\nLilian, você ainda está procurando imóvel ou já encontrou o que precisava?"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 441,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 26,
+        "service_tier": "standard"
+      }
+    }
+  },
+  "gpt": {
+    "payload": {
+      "model": "gpt-4o",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an AI agent writing one-line follow-up messages for real estate leads contacted 24+ hours ago; always output a message—be concise, clear, professional, re-engage with a question or new info, no emojis, no system text, no silence."
+        },
+        {
+          "role": "user",
+          "content": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. Saiba mais"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Prazer! Eu sou a Mavi assistente da Mosaic. Consigo te ajudar a encontrar o melhor imóvel! O que você está procurando?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Está cansada de procurar imóveis com vários corretores e nunca achar o certo? Tenho certeza que você vai amar o nosso atendimento!\nTrabalhamos em parceria com mais de 200 imobiliárias, com mais de 45 mil imóveis.\n\nE o mais importante, aqui eu faço a *curadoria individualizada para o que você está procurando*!\n\nEntão me fala aqui, qual tipo de imóvel você está procurando? Se é para alugar ou comprar, em qual faixa de valor e em quais regiões!"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Me conta melhor, o que está procurando?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? Achei uma casa fantástica na Vila Nova para você!"
+        },
+        {
+          "role": "assistant",
+          "content": "https://minisites.mosaichomes.com.br/688bc45f750a7661922dd41d?"
+        },
+        {
+          "role": "assistant",
+          "content": "O que você acha? Gostou?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lilian, tudo bem? O que você está procurando? É uma casa na vila nova mesmo?"
+        }
+      ],
+      "max_tokens": 2048,
+      "temperature": 0.0
+    },
+    "response": {
+      "id": "chatcmpl-C5xR3Tj0w9CmX0uuCRnJYLMcpX4DA",
+      "object": "chat.completion",
+      "created": 1755536145,
+      "model": "gpt-4o-2024-08-06",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Lilian, tudo bem? Estou aqui para ajudar a encontrar o imóvel ideal. O que você está buscando no momento?",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 356,
+        "completion_tokens": 24,
+        "total_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_46bff0e0c8"
+    }
+  }
+}
